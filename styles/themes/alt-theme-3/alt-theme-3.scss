@@ -1,0 +1,658 @@
+@import "../../variables";
+@import "../variants";
+
+.alt-theme-3-shape-1 {
+  background: black;
+
+  span:nth-child(1) {
+    width: 12rem;
+    height: 6rem;
+    background: $blu;
+    position: absolute;
+  }
+  span:nth-child(2) {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background: $blu;
+    border: 2rem solid $lite-blu;
+    z-index: 1;
+  }
+  span:nth-child(3) {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: $gold;
+    z-index: 2;
+    position: absolute;
+  }
+}
+
+.alt-theme-3-shape-2 {
+  background: maroon;
+
+  div {
+    width: 8rem;
+    height: 10rem;
+    background: $dark-blu;
+    border-radius: 0 0 4rem 4rem;
+    display: flex;
+  }
+
+  div span {
+    width: 100%;
+    height: 7rem;
+    background: $flamingo;
+    transform: translateY(-0.5rem);
+    border-radius: 1rem;
+    margin-top: -3rem;
+
+    &:nth-child(odd) {
+      background: $dark-blu;
+    }
+  }
+  &::before {
+    content: "";
+    width: 1rem;
+    height: 8rem;
+    background: $dark-blu;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 0.5rem);
+  }
+}
+
+.alt-theme-3-shape-3 {
+  background: $gold;
+  flex-direction: column;
+
+  div:first-child {
+    width: 8rem;
+    height: 7rem;
+    background: $blu;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 4rem 4rem 1rem 1rem;
+    position: relative;
+
+    span {
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+      background: $dark;
+      margin-top: 2.7rem;
+
+      &:nth-child(2) {
+        width: 1.4rem;
+        height: 1.4rem;
+        position: absolute;
+        bottom: -0.6rem;
+        z-index: 1;
+      }
+    }
+  }
+  div:last-child {
+    width: 5rem;
+    height: 2.5rem;
+    background: $blu;
+    border-radius: 0 0 1.4rem 1.4rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+
+    span {
+      background-color: $dark;
+      width: 0.6rem;
+      height: 1rem;
+      margin-top: 1.8rem;
+      border-radius: 0.4rem;
+    }
+  }
+}
+
+.alt-theme-3-shape-4 {
+  background-color: maroon;
+
+  span:nth-child(1) {
+    width: 8rem;
+    height: 8rem;
+    background: $gold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &::before,
+    &::after {
+      content: "";
+      width: 4rem;
+      height: 4rem;
+      background: $gold;
+      position: absolute;
+      transform: rotate(45deg);
+    }
+    &::before {
+      left: -0.8rem;
+    }
+    &::after {
+      right: -0.8rem;
+    }
+  }
+  span:nth-child(2) {
+    width: 7rem;
+    height: 7rem;
+    background: $lemon;
+    position: absolute;
+    border-radius: 50%;
+    border: 0.8rem solid $dark;
+  }
+  span:nth-child(3) {
+    width: 2rem;
+    height: 2rem;
+    background: $dark;
+    position: absolute;
+    border-radius: 50%;
+  }
+}
+
+.alt-theme-3-shape-5 {
+  background: burlywood;
+
+  div {
+    width: 8rem;
+    height: 12rem;
+    background: $blu;
+    border-radius: 4rem 4rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    position: relative;
+
+    span {
+      background: $dark;
+      height: 1rem;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+
+      &:nth-child(1) {
+        width: 2rem;
+        margin-bottom: 3.3rem;
+      }
+      &:nth-child(2) {
+        width: 3.8rem;
+        margin-bottom: 2.2rem;
+      }
+      &:nth-child(3) {
+        width: 5.4rem;
+        margin-bottom: 1.1rem;
+      }
+      &:nth-child(4) {
+        width: 6.6rem;
+      }
+    }
+  }
+}
+
+.alt-theme-3-shape-6 {
+  background: yellow;
+  flex-direction: column;
+
+  span:nth-child(1) {
+    width: 3rem;
+    height: 3rem;
+    background: $lemon;
+    border-radius: 2rem 2rem 0 0;
+    margin-bottom: -1.2rem;
+  }
+  span:nth-child(2) {
+    width: 8rem;
+    height: 8rem;
+    background: $pop;
+    border-radius: 4rem 4rem 1rem 1rem;
+    z-index: 1;
+  }
+  span:nth-child(3) {
+    width: 3rem;
+    height: 3rem;
+    background: $pop2;
+    border-radius: 0 0 2rem 2rem;
+    margin-top: -0.8rem;
+  }
+}
+
+.alt-theme-3-shape-7 {
+  background: orange;
+
+  div {
+    width: 10rem;
+    height: 10rem;
+    background-color: $lite-red;
+    border-radius: 5rem 5rem 3rem 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: start;
+    position: relative;
+    overflow: hidden;
+
+    span {
+      background: $cream;
+
+      &:nth-child(1),
+      &:nth-child(2) {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        margin-top: -2.4rem;
+      }
+      &:nth-child(3),
+      &:nth-child(4) {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+      }
+      &:nth-child(5) {
+        width: 2.5rem;
+        height: 0.5rem;
+        border-radius: 0.2rem;
+        position: absolute;
+        bottom: 1rem;
+      }
+    }
+  }
+}
+
+.alt-theme-3-shape-8 {
+  background-color: $witch;
+
+  div:nth-child(2) {
+    width: 8rem;
+    height: 8rem;
+    background-color: $emerald;
+    border-radius: 50%;
+    z-index: 2;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    span {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      background: $emerald;
+      border: 0.5rem solid $gold;
+    }
+    &::before {
+      content: "";
+      width: 80%;
+      height: 1.2rem;
+      background-color: $emerald;
+      position: absolute;
+      top: 35%;
+    }
+    &::after {
+      content: "";
+      width: 3.5rem;
+      height: 3.5rem;
+      position: absolute;
+      bottom: -3rem;
+      border-radius: 50%;
+      border: 0.8rem solid transparent;
+      border-top-color: $empty;
+      border-left-color: $empty;
+      transform: rotate(45deg);
+    }
+  }
+  div:nth-child(3)::before {
+    left: 0;
+  }
+
+  div:nth-child(1),
+  div:nth-child(3) {
+    position: relative;
+    width: 3rem;
+    height: 8rem;
+    background: $emerald;
+    border-radius: 50%;
+
+    &::before {
+      content: "";
+      width: 82%;
+      height: 100%;
+      background: $dark-emerald;
+      border-radius: 50%;
+      position: absolute;
+      right: 0;
+    }
+  }
+  &::before {
+    content: "";
+    width: 1.7rem;
+    height: 42%;
+    background: $dark-emerald;
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    border-radius: 2rem 2rem 0 0;
+  }
+}
+
+.alt-theme-3-shape-9 {
+  background-color: wheat;
+  span {
+    width: 12rem;
+    height: 12rem;
+    background: $cream;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: "";
+      width: 6rem;
+      height: 6rem;
+      background: $lite-red;
+      position: absolute;
+      bottom: -3rem;
+      transform: rotate(45deg);
+    }
+    &::after {
+      content: "";
+      width: 9rem;
+      height: 9rem;
+      background: $lite-red;
+      position: absolute;
+      bottom: -3rem;
+      right: -1rem;
+      transform: rotate(45deg);
+    }
+  }
+}
+
+.alt-theme-3-shape-10 {
+  background: black;
+  flex-direction: column;
+
+  div {
+    width: 10rem;
+    height: 5rem;
+    display: flex;
+
+    &:first-child {
+      border-radius: 50% 50% 0 50%;
+      span {
+        background: $empty;
+        width: 50%;
+        height: 100%;
+        border-radius: 50% 50% 50% 0;
+        &:first-child {
+          border-radius: 50% 50% 0 50%;
+        }
+      }
+    }
+    &:last-child {
+      background: $sunny;
+      border-radius: 3rem;
+      gap: 0.4rem;
+      justify-content: start;
+      overflow: hidden;
+
+      span {
+        background: $dark;
+        height: 100%;
+        width: 1.8rem;
+
+        &:last-child {
+          width: 1.3rem;
+          height: 1.3rem;
+          border-radius: 50%;
+          align-self: start;
+          margin: 0.8rem 1.3rem 0 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+.alt-theme-3-shape-11 {
+  background: maroon;
+  transform: rotate(180deg);
+
+  div:nth-child(2) {
+    background: $cream;
+    width: 6rem;
+    height: 4rem;
+    border-radius: 0 0 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    padding: 0 0.8rem;
+
+    span {
+      background: $lite-red;
+      width: 1.6rem;
+      height: 0.25rem;
+      border-radius: 5px;
+
+      &:nth-child(1) {
+        margin: 0.4rem 0;
+      }
+      &:nth-child(3) {
+        width: 1.2rem;
+        height: 1.2rem;
+        border-radius: 50%;
+        align-self: end;
+        margin-top: 0.7rem;
+        z-index: 1;
+      }
+    }
+  }
+  div:nth-child(1),
+  div:nth-child(3) {
+    width: 3.5rem;
+    height: 2.2rem;
+    border: 5px solid $cream;
+    margin-top: -1.8rem;
+  }
+  div:nth-child(1) {
+    border-radius: 1rem 0 0 1rem;
+    margin-right: -1rem;
+    background-color: $cream;
+  }
+  div:nth-child(3) {
+    border-radius: 0 1rem 1rem 0;
+    margin-left: -1rem;
+    background-color: $cream;
+  }
+  // TODO: push down hat brim
+}
+
+.alt-theme-3-shape-12 {
+  background: turquoise;
+  flex-direction: column;
+
+  span:first-child {
+    width: 10rem;
+    height: 10rem;
+    border-left: 7rem solid transparent;
+    border-right: 7rem solid transparent;
+    border-bottom: 5rem solid $blu;
+    position: relative;
+  }
+
+  span:last-child {
+    width: 10rem;
+    height: 8rem;
+    background: $blu;
+    position: relative;
+
+    &::before {
+      content: "";
+      width: 5rem;
+      height: 6px;
+      background: $gold;
+      position: absolute;
+      top: 0;
+      left: calc(50% - 2.5rem);
+    }
+    &::after {
+      content: "";
+      width: 3rem;
+      height: 4rem;
+      background: $gold;
+      position: absolute;
+      bottom: 0;
+      left: calc(50% - 1.5rem);
+    }
+  }
+}
+
+.alt-theme-3-shape-13 {
+  background: $dark-blu;
+
+  div {
+    background: $pop;
+
+    &:first-child {
+      width: 6rem;
+      height: 6rem;
+      border-radius: 50%;
+      position: relative;
+
+      span {
+        width: 6px;
+        height: 2rem;
+        background: $emerald;
+        position: absolute;
+        top: calc(50% - 1rem);
+        left: 2rem;
+        border-radius: 4px;
+      }
+    }
+    &:nth-child(2) {
+      width: 4.5rem;
+      height: 4.5rem;
+      border-radius: 50%;
+      margin-left: -2.5rem;
+      z-index: 1;
+      display: grid;
+      place-items: center;
+
+      span {
+        width: 2.2rem;
+        height: 2.2rem;
+        background: $emerald;
+        border-radius: 50%;
+        border: 4px solid $gold;
+      }
+    }
+    &:nth-child(3) {
+      width: 6rem;
+      height: 1rem;
+      background: $emerald;
+      margin-left: -0.4rem;
+    }
+    &:nth-child(4) {
+      width: 2.2rem;
+      height: 1.6rem;
+      border-radius: 0.5rem;
+      margin-left: -0.4rem;
+      display: flex;
+      flex-direction: column;
+      row-gap: 0.3rem;
+      padding: 0.4rem;
+
+      span {
+        width: 100%;
+        height: 0.4rem;
+        background: $emerald;
+      }
+    }
+  }
+}
+
+.alt-theme-3-shape-14 {
+  background-color: coral;
+
+  div {
+    width: 7rem;
+    height: 10rem;
+    background: $lemon;
+    border-radius: 4rem 4rem 1rem 1rem;
+    position: relative;
+    overflow: hidden;
+
+    span:nth-child(1) {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      background: $sunny;
+      position: absolute;
+      top: calc(50% - 1rem);
+      left: calc(50% - 1rem);
+    }
+    span:nth-child(2) {
+      width: 8rem;
+      height: 8rem;
+      background: $pop;
+      position: absolute;
+      bottom: -3rem;
+      left: -3rem;
+      border-radius: 50%;
+    }
+    span:nth-child(3) {
+      width: 10rem;
+      height: 10rem;
+      background-color: $pop2;
+      position: absolute;
+      bottom: -4.5rem;
+      right: -5rem;
+      border-radius: 50%;
+    }
+  }
+}
+
+.alt-theme-3-shape-15 {
+  background: white;
+  overflow: hidden;
+
+  span:first-child {
+    width: 5rem;
+    height: 6rem;
+    border: 1rem solid $lemon;
+    position: absolute;
+    top: -1rem;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 1rem;
+      height: 17rem;
+      background: $gold;
+      margin-left: 1rem;
+    }
+  }
+  span:last-child {
+    width: 9rem;
+    height: 8rem;
+    border: 1rem solid $gold;
+    position: absolute;
+    top: -1rem;
+
+    &::before {
+      content: "";
+      width: 9rem;
+      height: 1rem;
+      background: $lemon;
+      position: absolute;
+      bottom: -3rem;
+      left: -1rem;
+    }
+  }
+}
