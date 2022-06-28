@@ -1,5 +1,0 @@
-change colours to match selected theme
-
-order = {
-   all of alt-theme-(n)
-}
