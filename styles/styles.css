@@ -1903,26 +1903,26 @@ body > div {
 .alt-theme-4-shape-2 div {
   width: 8rem;
   height: 10rem;
-  background: #060f55;
+  background: #50fa7b;
   border-radius: 0 0 4rem 4rem;
   display: flex;
 }
 .alt-theme-4-shape-2 div span {
   width: 100%;
   height: 7rem;
-  background: #e97676;
+  background: #282a36;
   transform: translateY(-0.5rem);
   border-radius: 1rem;
   margin-top: -3rem;
 }
 .alt-theme-4-shape-2 div span:nth-child(odd) {
-  background: #060f55;
+  background: #50fa7b;
 }
 .alt-theme-4-shape-2::before {
   content: "";
   width: 1rem;
   height: 8rem;
-  background: #060f55;
+  background: #50fa7b;
   position: absolute;
   bottom: 0;
   left: calc(50% - 0.5rem);
@@ -1935,7 +1935,7 @@ body > div {
 .alt-theme-4-shape-3 div:first-child {
   width: 8rem;
   height: 7rem;
-  background: #243d83;
+  background: #8be9fd;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1947,7 +1947,7 @@ body > div {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
-  background: #191919;
+  background: #ff79c6;
   margin-top: 2.7rem;
 }
 .alt-theme-4-shape-3 div:first-child span:nth-child(2) {
@@ -1960,14 +1960,14 @@ body > div {
 .alt-theme-4-shape-3 div:last-child {
   width: 5rem;
   height: 2.5rem;
-  background: #243d83;
+  background: #8be9fd;
   border-radius: 0 0 1.4rem 1.4rem;
   display: flex;
   justify-content: center;
   gap: 0.4rem;
 }
 .alt-theme-4-shape-3 div:last-child span {
-  background-color: #191919;
+  background-color: #282a36;
   width: 0.6rem;
   height: 1rem;
   margin-top: 1.8rem;
@@ -1980,7 +1980,7 @@ body > div {
 .alt-theme-4-shape-4 span:nth-child(1) {
   width: 8rem;
   height: 8rem;
-  background: #eeb850;
+  background: #f1fa8c;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1990,7 +1990,7 @@ body > div {
   content: "";
   width: 4rem;
   height: 4rem;
-  background: #eeb850;
+  background: #f1fa8c;
   position: absolute;
   transform: rotate(45deg);
 }
@@ -2003,15 +2003,15 @@ body > div {
 .alt-theme-4-shape-4 span:nth-child(2) {
   width: 7rem;
   height: 7rem;
-  background: #f3ac3c;
+  background: #f1fa8c;
   position: absolute;
   border-radius: 50%;
-  border: 0.8rem solid #191919;
+  border: 0.8rem solid #282a36;
 }
 .alt-theme-4-shape-4 span:nth-child(3) {
   width: 2rem;
   height: 2rem;
-  background: #191919;
+  background: #282a36;
   position: absolute;
   border-radius: 50%;
 }
@@ -2022,7 +2022,7 @@ body > div {
 .alt-theme-4-shape-5 div {
   width: 8rem;
   height: 12rem;
-  background: #243d83;
+  background: #8be9fd;
   border-radius: 4rem 4rem 0 0;
   display: flex;
   flex-direction: column;
@@ -2030,7 +2030,7 @@ body > div {
   position: relative;
 }
 .alt-theme-4-shape-5 div span {
-  background: #191919;
+  background: #ff79c6;
   height: 1rem;
   position: absolute;
   bottom: 0;
@@ -2059,21 +2059,21 @@ body > div {
 .alt-theme-4-shape-6 span:nth-child(1) {
   width: 3rem;
   height: 3rem;
-  background: #f3ac3c;
+  background: #8be9fd;
   border-radius: 2rem 2rem 0 0;
   margin-bottom: -1.2rem;
 }
 .alt-theme-4-shape-6 span:nth-child(2) {
   width: 8rem;
   height: 8rem;
-  background: #c76e2a;
+  background: #ff79c6;
   border-radius: 4rem 4rem 1rem 1rem;
   z-index: 1;
 }
 .alt-theme-4-shape-6 span:nth-child(3) {
   width: 3rem;
   height: 3rem;
-  background: #8b4b19;
+  background: #bd93f9;
   border-radius: 0 0 2rem 2rem;
   margin-top: -0.8rem;
 }
@@ -2084,7 +2084,7 @@ body > div {
 .alt-theme-4-shape-7 div {
   width: 10rem;
   height: 10rem;
-  background-color: rgb(247, 65, 65);
+  background-color: #f1fa8c;
   border-radius: 5rem 5rem 3rem 3rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -2094,7 +2094,7 @@ body > div {
   overflow: hidden;
 }
 .alt-theme-4-shape-7 div span {
-  background: #fff1c1;
+  background: #ff79c6;
 }
 .alt-theme-4-shape-7 div span:nth-child(1), .alt-theme-4-shape-7 div span:nth-child(2) {
   width: 5rem;
@@ -2121,7 +2121,7 @@ body > div {
 .alt-theme-4-shape-8 div:nth-child(2) {
   width: 8rem;
   height: 8rem;
-  background-color: #1a4341;
+  background-color: #bd93f9;
   border-radius: 50%;
   z-index: 2;
   position: relative;
@@ -2134,14 +2134,14 @@ body > div {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  background: #1a4341;
-  border: 0.5rem solid #eeb850;
+  background: #bd93f9;
+  border: 0.5rem solid #f1fa8c;
 }
 .alt-theme-4-shape-8 div:nth-child(2)::before {
   content: "";
   width: 80%;
   height: 1.2rem;
-  background-color: #1a4341;
+  background-color: #bd93f9;
   position: absolute;
   top: 35%;
 }
@@ -2153,8 +2153,8 @@ body > div {
   bottom: -3rem;
   border-radius: 50%;
   border: 0.8rem solid transparent;
-  border-top-color: #fff;
-  border-left-color: #fff;
+  border-top-color: #f1fa8c;
+  border-left-color: #f1fa8c;
   transform: rotate(45deg);
 }
 .alt-theme-4-shape-8 div:nth-child(3)::before {
@@ -2165,7 +2165,7 @@ body > div {
   position: relative;
   width: 3rem;
   height: 8rem;
-  background: #1a4341;
+  background: #bd93f9;
   border-radius: 50%;
 }
 .alt-theme-4-shape-8 div:nth-child(1)::before,
@@ -2173,7 +2173,7 @@ body > div {
   content: "";
   width: 82%;
   height: 100%;
-  background: #0b2429;
+  background: #8be9fd;
   border-radius: 50%;
   position: absolute;
   right: 0;
@@ -2182,7 +2182,7 @@ body > div {
   content: "";
   width: 1.7rem;
   height: 42%;
-  background: #0b2429;
+  background: #bd93f9;
   position: absolute;
   bottom: 0;
   z-index: 3;
@@ -2195,7 +2195,7 @@ body > div {
 .alt-theme-4-shape-9 span {
   width: 12rem;
   height: 12rem;
-  background: #fff1c1;
+  background: #8be9fd;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
@@ -2204,7 +2204,7 @@ body > div {
   content: "";
   width: 6rem;
   height: 6rem;
-  background: rgb(247, 65, 65);
+  background: #ff79c6;
   position: absolute;
   bottom: -3rem;
   transform: rotate(45deg);
@@ -2213,7 +2213,7 @@ body > div {
   content: "";
   width: 9rem;
   height: 9rem;
-  background: rgb(247, 65, 65);
+  background: #ff79c6;
   position: absolute;
   bottom: -3rem;
   right: -1rem;
@@ -2233,7 +2233,7 @@ body > div {
   border-radius: 50% 50% 0 50%;
 }
 .alt-theme-4-shape-10 div:first-child span {
-  background: #fff;
+  background: #bd93f9;
   width: 50%;
   height: 100%;
   border-radius: 50% 50% 50% 0;
@@ -2242,14 +2242,14 @@ body > div {
   border-radius: 50% 50% 0 50%;
 }
 .alt-theme-4-shape-10 div:last-child {
-  background: #eff33c;
+  background: #f1fa8c;
   border-radius: 3rem;
   gap: 0.4rem;
   justify-content: start;
   overflow: hidden;
 }
 .alt-theme-4-shape-10 div:last-child span {
-  background: #191919;
+  background: #282a36;
   height: 100%;
   width: 1.8rem;
 }
@@ -2266,7 +2266,7 @@ body > div {
   transform: rotate(180deg);
 }
 .alt-theme-4-shape-11 div:nth-child(2) {
-  background: #fff1c1;
+  background: #ff79c6;
   width: 6rem;
   height: 4rem;
   border-radius: 0 0 2rem 2rem;
@@ -2277,7 +2277,7 @@ body > div {
   padding: 0 0.8rem;
 }
 .alt-theme-4-shape-11 div:nth-child(2) span {
-  background: rgb(247, 65, 65);
+  background: #50fa7b;
   width: 1.6rem;
   height: 0.25rem;
   border-radius: 5px;
@@ -2297,18 +2297,18 @@ body > div {
 .alt-theme-4-shape-11 div:nth-child(3) {
   width: 3.5rem;
   height: 2.2rem;
-  border: 5px solid #fff1c1;
+  border: 5px solid #ff79c6;
   margin-top: -1.8rem;
 }
 .alt-theme-4-shape-11 div:nth-child(1) {
   border-radius: 1rem 0 0 1rem;
   margin-right: -1rem;
-  background-color: #fff1c1;
+  background-color: #ff79c6;
 }
 .alt-theme-4-shape-11 div:nth-child(3) {
   border-radius: 0 1rem 1rem 0;
   margin-left: -1rem;
-  background-color: #fff1c1;
+  background-color: #ff79c6;
 }
 
 .alt-theme-4-shape-12 {
@@ -2320,20 +2320,20 @@ body > div {
   height: 10rem;
   border-left: 7rem solid transparent;
   border-right: 7rem solid transparent;
-  border-bottom: 5rem solid #243d83;
+  border-bottom: 5rem solid #50fa7b;
   position: relative;
 }
 .alt-theme-4-shape-12 span:last-child {
   width: 10rem;
   height: 8rem;
-  background: #243d83;
+  background: #50fa7b;
   position: relative;
 }
 .alt-theme-4-shape-12 span:last-child::before {
   content: "";
   width: 5rem;
   height: 6px;
-  background: #eeb850;
+  background: #ff79c6;
   position: absolute;
   top: 0;
   left: calc(50% - 2.5rem);
@@ -2342,7 +2342,7 @@ body > div {
   content: "";
   width: 3rem;
   height: 4rem;
-  background: #eeb850;
+  background: #ff79c6;
   position: absolute;
   bottom: 0;
   left: calc(50% - 1.5rem);
@@ -2352,7 +2352,7 @@ body > div {
   background: #282a36;
 }
 .alt-theme-4-shape-13 div {
-  background: #c76e2a;
+  background: #8be9fd;
 }
 .alt-theme-4-shape-13 div:first-child {
   width: 6rem;
@@ -2363,7 +2363,7 @@ body > div {
 .alt-theme-4-shape-13 div:first-child span {
   width: 6px;
   height: 2rem;
-  background: #1a4341;
+  background: #ff79c6;
   position: absolute;
   top: calc(50% - 1rem);
   left: 2rem;
@@ -2381,14 +2381,14 @@ body > div {
 .alt-theme-4-shape-13 div:nth-child(2) span {
   width: 2.2rem;
   height: 2.2rem;
-  background: #1a4341;
+  background: #ff79c6;
   border-radius: 50%;
-  border: 4px solid #eeb850;
+  border: 4px solid #f1fa8c;
 }
 .alt-theme-4-shape-13 div:nth-child(3) {
   width: 6rem;
   height: 1rem;
-  background: #1a4341;
+  background: #ff79c6;
   margin-left: -0.4rem;
 }
 .alt-theme-4-shape-13 div:nth-child(4) {
@@ -2404,7 +2404,7 @@ body > div {
 .alt-theme-4-shape-13 div:nth-child(4) span {
   width: 100%;
   height: 0.4rem;
-  background: #1a4341;
+  background: #ff79c6;
 }
 
 .alt-theme-4-shape-14 {
@@ -2413,7 +2413,7 @@ body > div {
 .alt-theme-4-shape-14 div {
   width: 7rem;
   height: 10rem;
-  background: #f3ac3c;
+  background: #ff79c6;
   border-radius: 4rem 4rem 1rem 1rem;
   position: relative;
   overflow: hidden;
@@ -2422,7 +2422,7 @@ body > div {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  background: #eff33c;
+  background: #f1fa8c;
   position: absolute;
   top: calc(50% - 1rem);
   left: calc(50% - 1rem);
@@ -2430,7 +2430,7 @@ body > div {
 .alt-theme-4-shape-14 div span:nth-child(2) {
   width: 8rem;
   height: 8rem;
-  background: #c76e2a;
+  background: #8be9fd;
   position: absolute;
   bottom: -3rem;
   left: -3rem;
@@ -2439,7 +2439,7 @@ body > div {
 .alt-theme-4-shape-14 div span:nth-child(3) {
   width: 10rem;
   height: 10rem;
-  background-color: #8b4b19;
+  background-color: #bd93f9;
   position: absolute;
   bottom: -4.5rem;
   right: -5rem;
@@ -2453,7 +2453,7 @@ body > div {
 .alt-theme-4-shape-15 span:first-child {
   width: 5rem;
   height: 6rem;
-  border: 1rem solid #f3ac3c;
+  border: 1rem solid #ff79c6;
   position: absolute;
   top: -1rem;
 }
@@ -2462,13 +2462,13 @@ body > div {
   display: block;
   width: 1rem;
   height: 17rem;
-  background: #eeb850;
+  background: #f1fa8c;
   margin-left: 1rem;
 }
 .alt-theme-4-shape-15 span:last-child {
   width: 9rem;
   height: 8rem;
-  border: 1rem solid #eeb850;
+  border: 1rem solid #f1fa8c;
   position: absolute;
   top: -1rem;
 }
@@ -2476,7 +2476,7 @@ body > div {
   content: "";
   width: 9rem;
   height: 1rem;
-  background: #f3ac3c;
+  background: #ff79c6;
   position: absolute;
   bottom: -3rem;
   left: -1rem;
