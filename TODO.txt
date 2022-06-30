@@ -1,0 +1,2 @@
+create a button that switches all themes at once   
+// if theme is dracula, set root background to white(ish)

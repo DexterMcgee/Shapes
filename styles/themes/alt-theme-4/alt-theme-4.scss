@@ -2,34 +2,34 @@
 @import "../variants";
 
 .alt-theme-4-shape-1 {
-  background: green;
+  background: $coffin;
 
   span:nth-child(1) {
     width: 12rem;
     height: 6rem;
-    background: $blu;
+    background: $magic;
     position: absolute;
   }
   span:nth-child(2) {
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
-    background: $blu;
-    border: 2rem solid $lite-blu;
+    background: $magic;
+    border: 2rem solid $witch;
     z-index: 1;
   }
   span:nth-child(3) {
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    background: $gold;
+    background: $crystal;
     z-index: 2;
     position: absolute;
   }
 }
 
 .alt-theme-4-shape-2 {
-  background: $cream;
+  background: $coffin;
 
   div {
     width: 8rem;
@@ -63,7 +63,7 @@
 }
 
 .alt-theme-4-shape-3 {
-  background: $lite-blu;
+  background: $coffin;
   flex-direction: column;
 
   div:first-child {
@@ -113,7 +113,7 @@
 }
 
 .alt-theme-4-shape-4 {
-  background-color: white;
+  background-color: $coffin;
 
   span:nth-child(1) {
     width: 8rem;
@@ -158,7 +158,7 @@
 }
 
 .alt-theme-4-shape-5 {
-  background: orchid;
+  background: $coffin;
 
   div {
     width: 8rem;
@@ -197,7 +197,7 @@
 }
 
 .alt-theme-4-shape-6 {
-  background: $dark;
+  background: $coffin;
   flex-direction: column;
 
   span:nth-child(1) {
@@ -224,7 +224,7 @@
 }
 
 .alt-theme-4-shape-7 {
-  background: burlywood;
+  background: $coffin;
 
   div {
     width: 10rem;
@@ -266,7 +266,7 @@
 }
 
 .alt-theme-4-shape-8 {
-  background-color: $magic;
+  background-color: $coffin;
 
   div:nth-child(2) {
     width: 8rem;
@@ -343,7 +343,7 @@
 }
 
 .alt-theme-4-shape-9 {
-  background-color: palevioletred;
+  background-color: $coffin;
   span {
     width: 12rem;
     height: 12rem;
@@ -375,7 +375,7 @@
 }
 
 .alt-theme-4-shape-10 {
-  background: $magic;
+  background: $coffin;
   flex-direction: column;
 
   div {
@@ -420,7 +420,7 @@
 }
 
 .alt-theme-4-shape-11 {
-  background: black;
+  background: $coffin;
   transform: rotate(180deg);
 
   div:nth-child(2) {
@@ -474,7 +474,7 @@
 }
 
 .alt-theme-4-shape-12 {
-  background: $witch;
+  background: $coffin;
   flex-direction: column;
 
   span:first-child {
@@ -514,7 +514,7 @@
 }
 
 .alt-theme-4-shape-13 {
-  background: black;
+  background: $coffin;
 
   div {
     background: $pop;
@@ -578,7 +578,7 @@
 }
 
 .alt-theme-4-shape-14 {
-  background-color: $lemon;
+  background-color: $coffin;
 
   div {
     width: 7rem;
@@ -619,7 +619,7 @@
 }
 
 .alt-theme-4-shape-15 {
-  background: black;
+  background: $coffin;
   overflow: hidden;
 
   span:first-child {

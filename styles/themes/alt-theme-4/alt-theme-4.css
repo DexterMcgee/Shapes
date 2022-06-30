@@ -1,31 +1,31 @@
 .alt-theme-4-shape-1 {
-  background: green;
+  background: #282a36;
 }
 .alt-theme-4-shape-1 span:nth-child(1) {
   width: 12rem;
   height: 6rem;
-  background: #243d83;
+  background: #8be9fd;
   position: absolute;
 }
 .alt-theme-4-shape-1 span:nth-child(2) {
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
-  background: #243d83;
-  border: 2rem solid #6592cf;
+  background: #8be9fd;
+  border: 2rem solid #bd93f9;
   z-index: 1;
 }
 .alt-theme-4-shape-1 span:nth-child(3) {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  background: #eeb850;
+  background: #ff79c6;
   z-index: 2;
   position: absolute;
 }
 
 .alt-theme-4-shape-2 {
-  background: #fff1c1;
+  background: #282a36;
 }
 .alt-theme-4-shape-2 div {
   width: 8rem;
@@ -56,7 +56,7 @@
 }
 
 .alt-theme-4-shape-3 {
-  background: #6592cf;
+  background: #282a36;
   flex-direction: column;
 }
 .alt-theme-4-shape-3 div:first-child {
@@ -102,7 +102,7 @@
 }
 
 .alt-theme-4-shape-4 {
-  background-color: white;
+  background-color: #282a36;
 }
 .alt-theme-4-shape-4 span:nth-child(1) {
   width: 8rem;
@@ -144,7 +144,7 @@
 }
 
 .alt-theme-4-shape-5 {
-  background: orchid;
+  background: #282a36;
 }
 .alt-theme-4-shape-5 div {
   width: 8rem;
@@ -180,7 +180,7 @@
 }
 
 .alt-theme-4-shape-6 {
-  background: #191919;
+  background: #282a36;
   flex-direction: column;
 }
 .alt-theme-4-shape-6 span:nth-child(1) {
@@ -206,7 +206,7 @@
 }
 
 .alt-theme-4-shape-7 {
-  background: burlywood;
+  background: #282a36;
 }
 .alt-theme-4-shape-7 div {
   width: 10rem;
@@ -243,7 +243,7 @@
 }
 
 .alt-theme-4-shape-8 {
-  background-color: #8be9fd;
+  background-color: #282a36;
 }
 .alt-theme-4-shape-8 div:nth-child(2) {
   width: 8rem;
@@ -317,7 +317,7 @@
 }
 
 .alt-theme-4-shape-9 {
-  background-color: palevioletred;
+  background-color: #282a36;
 }
 .alt-theme-4-shape-9 span {
   width: 12rem;
@@ -348,7 +348,7 @@
 }
 
 .alt-theme-4-shape-10 {
-  background: #8be9fd;
+  background: #282a36;
   flex-direction: column;
 }
 .alt-theme-4-shape-10 div {
@@ -389,7 +389,7 @@
 }
 
 .alt-theme-4-shape-11 {
-  background: black;
+  background: #282a36;
   transform: rotate(180deg);
 }
 .alt-theme-4-shape-11 div:nth-child(2) {
@@ -439,7 +439,7 @@
 }
 
 .alt-theme-4-shape-12 {
-  background: #bd93f9;
+  background: #282a36;
   flex-direction: column;
 }
 .alt-theme-4-shape-12 span:first-child {
@@ -476,7 +476,7 @@
 }
 
 .alt-theme-4-shape-13 {
-  background: black;
+  background: #282a36;
 }
 .alt-theme-4-shape-13 div {
   background: #c76e2a;
@@ -535,7 +535,7 @@
 }
 
 .alt-theme-4-shape-14 {
-  background-color: #f3ac3c;
+  background-color: #282a36;
 }
 .alt-theme-4-shape-14 div {
   width: 7rem;
@@ -574,7 +574,7 @@
 }
 
 .alt-theme-4-shape-15 {
-  background: black;
+  background: #282a36;
   overflow: hidden;
 }
 .alt-theme-4-shape-15 span:first-child {

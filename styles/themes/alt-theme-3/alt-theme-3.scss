@@ -2,39 +2,39 @@
 @import "../variants";
 
 .alt-theme-3-shape-1 {
-  background: black;
+  background: $sweet;
 
   span:nth-child(1) {
     width: 12rem;
     height: 6rem;
-    background: $blu;
+    background: $rich;
     position: absolute;
   }
   span:nth-child(2) {
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
-    background: $blu;
-    border: 2rem solid $lite-blu;
+    background: $rich;
+    border: 2rem solid $sweet;
     z-index: 1;
   }
   span:nth-child(3) {
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    background: $gold;
+    background: $sweet;
     z-index: 2;
     position: absolute;
   }
 }
 
 .alt-theme-3-shape-2 {
-  background: maroon;
+  background: $defined;
 
   div {
     width: 8rem;
     height: 10rem;
-    background: $dark-blu;
+    background: $honey;
     border-radius: 0 0 4rem 4rem;
     display: flex;
   }
@@ -42,20 +42,20 @@
   div span {
     width: 100%;
     height: 7rem;
-    background: $flamingo;
+    background: $defined;
     transform: translateY(-0.5rem);
     border-radius: 1rem;
     margin-top: -3rem;
 
     &:nth-child(odd) {
-      background: $dark-blu;
+      background: $honey;
     }
   }
   &::before {
     content: "";
     width: 1rem;
     height: 8rem;
-    background: $dark-blu;
+    background: $honey;
     position: absolute;
     bottom: 0;
     left: calc(50% - 0.5rem);
@@ -63,13 +63,13 @@
 }
 
 .alt-theme-3-shape-3 {
-  background: $gold;
+  background: $vanilla;
   flex-direction: column;
 
   div:first-child {
     width: 8rem;
     height: 7rem;
-    background: $blu;
+    background: $defined;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,7 +81,7 @@
       width: 2.5rem;
       height: 2.5rem;
       border-radius: 50%;
-      background: $dark;
+      background: $honey;
       margin-top: 2.7rem;
 
       &:nth-child(2) {
@@ -96,14 +96,14 @@
   div:last-child {
     width: 5rem;
     height: 2.5rem;
-    background: $blu;
+    background: $defined;
     border-radius: 0 0 1.4rem 1.4rem;
     display: flex;
     justify-content: center;
     gap: 0.4rem;
 
     span {
-      background-color: $dark;
+      background-color: $vanilla;
       width: 0.6rem;
       height: 1rem;
       margin-top: 1.8rem;
@@ -113,12 +113,12 @@
 }
 
 .alt-theme-3-shape-4 {
-  background-color: maroon;
+  background-color: $vanilla;
 
   span:nth-child(1) {
     width: 8rem;
     height: 8rem;
-    background: $gold;
+    background: $honey;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -129,7 +129,7 @@
       content: "";
       width: 4rem;
       height: 4rem;
-      background: $gold;
+      background: $honey;
       position: absolute;
       transform: rotate(45deg);
     }
@@ -143,27 +143,27 @@
   span:nth-child(2) {
     width: 7rem;
     height: 7rem;
-    background: $lemon;
+    background: $sweet;
     position: absolute;
     border-radius: 50%;
-    border: 0.8rem solid $dark;
+    border: 0.8rem solid $defined;
   }
   span:nth-child(3) {
     width: 2rem;
     height: 2rem;
-    background: $dark;
+    background: $defined;
     position: absolute;
     border-radius: 50%;
   }
 }
 
 .alt-theme-3-shape-5 {
-  background: burlywood;
+  background: $honey;
 
   div {
     width: 8rem;
     height: 12rem;
-    background: $blu;
+    background: $rich;
     border-radius: 4rem 4rem 0 0;
     display: flex;
     flex-direction: column;
@@ -171,7 +171,7 @@
     position: relative;
 
     span {
-      background: $dark;
+      background: $sweet;
       height: 1rem;
       position: absolute;
       bottom: 0;
@@ -197,39 +197,39 @@
 }
 
 .alt-theme-3-shape-6 {
-  background: yellow;
+  background: $defined;
   flex-direction: column;
 
   span:nth-child(1) {
     width: 3rem;
     height: 3rem;
-    background: $lemon;
+    background: $sweet;
     border-radius: 2rem 2rem 0 0;
     margin-bottom: -1.2rem;
   }
   span:nth-child(2) {
     width: 8rem;
     height: 8rem;
-    background: $pop;
+    background: $vanilla;
     border-radius: 4rem 4rem 1rem 1rem;
     z-index: 1;
   }
   span:nth-child(3) {
     width: 3rem;
     height: 3rem;
-    background: $pop2;
+    background: $honey;
     border-radius: 0 0 2rem 2rem;
     margin-top: -0.8rem;
   }
 }
 
 .alt-theme-3-shape-7 {
-  background: orange;
+  background: $rich;
 
   div {
     width: 10rem;
     height: 10rem;
-    background-color: $lite-red;
+    background-color: $honey;
     border-radius: 5rem 5rem 3rem 3rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -239,7 +239,7 @@
     overflow: hidden;
 
     span {
-      background: $cream;
+      background: $defined;
 
       &:nth-child(1),
       &:nth-child(2) {
@@ -266,12 +266,12 @@
 }
 
 .alt-theme-3-shape-8 {
-  background-color: $witch;
+  background-color: $sweet;
 
   div:nth-child(2) {
     width: 8rem;
     height: 8rem;
-    background-color: $emerald;
+    background-color: $rich;
     border-radius: 50%;
     z-index: 2;
     position: relative;
@@ -284,14 +284,14 @@
       width: 2rem;
       height: 2rem;
       border-radius: 50%;
-      background: $emerald;
-      border: 0.5rem solid $gold;
+      background: $rich;
+      border: 0.5rem solid $sweet;
     }
     &::before {
       content: "";
       width: 80%;
       height: 1.2rem;
-      background-color: $emerald;
+      background-color: $rich;
       position: absolute;
       top: 35%;
     }
@@ -303,8 +303,8 @@
       bottom: -3rem;
       border-radius: 50%;
       border: 0.8rem solid transparent;
-      border-top-color: $empty;
-      border-left-color: $empty;
+      border-top-color: $vanilla;
+      border-left-color: $vanilla;
       transform: rotate(45deg);
     }
   }
@@ -317,14 +317,14 @@
     position: relative;
     width: 3rem;
     height: 8rem;
-    background: $emerald;
+    background: $defined;
     border-radius: 50%;
 
     &::before {
       content: "";
       width: 82%;
       height: 100%;
-      background: $dark-emerald;
+      background: $rich;
       border-radius: 50%;
       position: absolute;
       right: 0;
@@ -334,7 +334,7 @@
     content: "";
     width: 1.7rem;
     height: 42%;
-    background: $dark-emerald;
+    background: $rich;
     position: absolute;
     bottom: 0;
     z-index: 3;
@@ -343,11 +343,11 @@
 }
 
 .alt-theme-3-shape-9 {
-  background-color: wheat;
+  background-color: $vanilla;
   span {
     width: 12rem;
     height: 12rem;
-    background: $cream;
+    background: $defined;
     border-radius: 50%;
     position: relative;
     overflow: hidden;
@@ -356,7 +356,7 @@
       content: "";
       width: 6rem;
       height: 6rem;
-      background: $lite-red;
+      background: $sweet;
       position: absolute;
       bottom: -3rem;
       transform: rotate(45deg);
@@ -365,7 +365,7 @@
       content: "";
       width: 9rem;
       height: 9rem;
-      background: $lite-red;
+      background: $sweet;
       position: absolute;
       bottom: -3rem;
       right: -1rem;
@@ -375,7 +375,7 @@
 }
 
 .alt-theme-3-shape-10 {
-  background: black;
+  background: $defined;
   flex-direction: column;
 
   div {
@@ -386,7 +386,7 @@
     &:first-child {
       border-radius: 50% 50% 0 50%;
       span {
-        background: $empty;
+        background: $vanilla;
         width: 50%;
         height: 100%;
         border-radius: 50% 50% 50% 0;
@@ -396,14 +396,14 @@
       }
     }
     &:last-child {
-      background: $sunny;
+      background: $sweet;
       border-radius: 3rem;
       gap: 0.4rem;
       justify-content: start;
       overflow: hidden;
 
       span {
-        background: $dark;
+        background: $rich;
         height: 100%;
         width: 1.8rem;
 
@@ -420,11 +420,11 @@
 }
 
 .alt-theme-3-shape-11 {
-  background: maroon;
+  background: $vanilla;
   transform: rotate(180deg);
 
   div:nth-child(2) {
-    background: $cream;
+    background: $honey;
     width: 6rem;
     height: 4rem;
     border-radius: 0 0 2rem 2rem;
@@ -435,7 +435,7 @@
     padding: 0 0.8rem;
 
     span {
-      background: $lite-red;
+      background: $defined;
       width: 1.6rem;
       height: 0.25rem;
       border-radius: 5px;
@@ -457,24 +457,23 @@
   div:nth-child(3) {
     width: 3.5rem;
     height: 2.2rem;
-    border: 5px solid $cream;
+    border: 5px solid $honey;
     margin-top: -1.8rem;
   }
   div:nth-child(1) {
     border-radius: 1rem 0 0 1rem;
     margin-right: -1rem;
-    background-color: $cream;
+    background-color: $honey;
   }
   div:nth-child(3) {
     border-radius: 0 1rem 1rem 0;
     margin-left: -1rem;
-    background-color: $cream;
+    background-color: $honey;
   }
-  // TODO: push down hat brim
 }
 
 .alt-theme-3-shape-12 {
-  background: turquoise;
+  background: $defined;
   flex-direction: column;
 
   span:first-child {
@@ -482,21 +481,21 @@
     height: 10rem;
     border-left: 7rem solid transparent;
     border-right: 7rem solid transparent;
-    border-bottom: 5rem solid $blu;
+    border-bottom: 5rem solid $sweet;
     position: relative;
   }
 
   span:last-child {
     width: 10rem;
     height: 8rem;
-    background: $blu;
+    background: $sweet;
     position: relative;
 
     &::before {
       content: "";
       width: 5rem;
       height: 6px;
-      background: $gold;
+      background: $rich;
       position: absolute;
       top: 0;
       left: calc(50% - 2.5rem);
@@ -505,7 +504,7 @@
       content: "";
       width: 3rem;
       height: 4rem;
-      background: $gold;
+      background: $rich;
       position: absolute;
       bottom: 0;
       left: calc(50% - 1.5rem);
@@ -514,10 +513,10 @@
 }
 
 .alt-theme-3-shape-13 {
-  background: $dark-blu;
+  background: $rich;
 
   div {
-    background: $pop;
+    background: $honey;
 
     &:first-child {
       width: 6rem;
@@ -528,7 +527,7 @@
       span {
         width: 6px;
         height: 2rem;
-        background: $emerald;
+        background: $defined;
         position: absolute;
         top: calc(50% - 1rem);
         left: 2rem;
@@ -547,15 +546,15 @@
       span {
         width: 2.2rem;
         height: 2.2rem;
-        background: $emerald;
+        background: $defined;
         border-radius: 50%;
-        border: 4px solid $gold;
+        border: 4px solid $sweet;
       }
     }
     &:nth-child(3) {
       width: 6rem;
       height: 1rem;
-      background: $emerald;
+      background: $vanilla;
       margin-left: -0.4rem;
     }
     &:nth-child(4) {
@@ -571,19 +570,19 @@
       span {
         width: 100%;
         height: 0.4rem;
-        background: $emerald;
+        background: $defined;
       }
     }
   }
 }
 
 .alt-theme-3-shape-14 {
-  background-color: coral;
+  background-color: $honey;
 
   div {
     width: 7rem;
     height: 10rem;
-    background: $lemon;
+    background: $rich;
     border-radius: 4rem 4rem 1rem 1rem;
     position: relative;
     overflow: hidden;
@@ -592,7 +591,7 @@
       width: 2rem;
       height: 2rem;
       border-radius: 50%;
-      background: $sunny;
+      background: $sweet;
       position: absolute;
       top: calc(50% - 1rem);
       left: calc(50% - 1rem);
@@ -600,7 +599,7 @@
     span:nth-child(2) {
       width: 8rem;
       height: 8rem;
-      background: $pop;
+      background: $defined;
       position: absolute;
       bottom: -3rem;
       left: -3rem;
@@ -609,7 +608,7 @@
     span:nth-child(3) {
       width: 10rem;
       height: 10rem;
-      background-color: $pop2;
+      background-color: $rich;
       position: absolute;
       bottom: -4.5rem;
       right: -5rem;
@@ -619,13 +618,13 @@
 }
 
 .alt-theme-3-shape-15 {
-  background: white;
+  background: $rich;
   overflow: hidden;
 
   span:first-child {
     width: 5rem;
     height: 6rem;
-    border: 1rem solid $lemon;
+    border: 1rem solid $honey;
     position: absolute;
     top: -1rem;
 
@@ -634,14 +633,14 @@
       display: block;
       width: 1rem;
       height: 17rem;
-      background: $gold;
+      background: $sweet;
       margin-left: 1rem;
     }
   }
   span:last-child {
     width: 9rem;
     height: 8rem;
-    border: 1rem solid $gold;
+    border: 1rem solid $sweet;
     position: absolute;
     top: -1rem;
 
@@ -649,7 +648,7 @@
       content: "";
       width: 9rem;
       height: 1rem;
-      background: $lemon;
+      background: $honey;
       position: absolute;
       bottom: -3rem;
       left: -1rem;
