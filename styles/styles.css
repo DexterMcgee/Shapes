@@ -39,55 +39,26 @@ body > div {
 }
 body icontray {
   position: fixed;
-  background: rgb(255, 255, 255);
+  background: rgb(82, 82, 82);
   width: 65px;
-  height: 340px;
+  height: 330px;
   bottom: 20px;
   right: 20px;
-  z-index: 3;
+  z-index: 4;
   border-radius: 50px;
-  text-align: center;
 }
-body #btn1 {
-  position: absoulte;
-  width: 60px;
-  height: 60px;
-  z-index: 4;
-  text-align: center;
-  border-radius: 20px;
-  text-align: center;
-}
-body #btn2 {
-  position: absoulte;
-  width: 60px;
-  height: 60px;
-  z-index: 4;
-  border-radius: 20px;
-  text-align: center;
-}
-body #btn3 {
-  position: absoulte;
-  width: 60px;
-  height: 60px;
-  z-index: 4;
-  border-radius: 20px;
-  text-align: center;
-}
-body #btn4 {
-  position: absoulte;
-  width: 60px;
-  height: 60px;
-  z-index: 4;
-  border-radius: 20px;
-  text-align: center;
-}
+body #btn1,
+body #btn2,
+body #btn3,
+body #btn4,
 body #btn5 {
-  position: absoulte;
-  width: 60px;
-  height: 60px;
+  position: relative;
+  width: 55px;
+  height: 55px;
   z-index: 4;
-  border-radius: 20px;
-  text-align: center;
+  display: block;
+  margin: 0 auto;
+  top: 0.5rem;
 }
 
 .alt-theme-1-shape-1 {

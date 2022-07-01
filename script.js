@@ -285,3 +285,10 @@ jQuery(function () {
     }
   });
 });
+
+let btn1 = document.querySelector("#btn1");
+btn1.addEventListener("click", alternateTheme);
+
+function alternateTheme() {
+  $(boxes.box1).removeAttr("class").addClass("shape-1");
+}

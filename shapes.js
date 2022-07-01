@@ -15,6 +15,23 @@ const shapes = {
   shape14: $(".shape-14"),
   shape15: $(".shape-15"),
 };
+const boxes = {
+  box1: $("#shape-1"),
+  box2: $("#shape-2"),
+  box3: $("#shape-3"),
+  box4: $("#shape-4"),
+  box5: $("#shape-5"),
+  box6: $("#shape-6"),
+  box7: $("#shape-7"),
+  box8: $("#shape-8"),
+  box9: $("#shape-9"),
+  box10: $("#shape-10"),
+  box11: $("#shape-11"),
+  box12: $("#shape-12"),
+  box13: $("#shape-13"),
+  box14: $("#shape-14"),
+  box15: $("#shape-15"),
+};
 
 const alt1Shapes = {
   alt1Shape1: $(".alt-theme-1-shape-1"),
