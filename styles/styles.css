@@ -37,6 +37,58 @@ body > div {
   min-height: 20rem;
   cursor: pointer;
 }
+body icontray {
+  position: fixed;
+  background: rgb(255, 255, 255);
+  width: 65px;
+  height: 340px;
+  bottom: 20px;
+  right: 20px;
+  z-index: 3;
+  border-radius: 50px;
+  text-align: center;
+}
+body #btn1 {
+  position: absoulte;
+  width: 60px;
+  height: 60px;
+  z-index: 4;
+  text-align: center;
+  border-radius: 20px;
+  text-align: center;
+}
+body #btn2 {
+  position: absoulte;
+  width: 60px;
+  height: 60px;
+  z-index: 4;
+  border-radius: 20px;
+  text-align: center;
+}
+body #btn3 {
+  position: absoulte;
+  width: 60px;
+  height: 60px;
+  z-index: 4;
+  border-radius: 20px;
+  text-align: center;
+}
+body #btn4 {
+  position: absoulte;
+  width: 60px;
+  height: 60px;
+  z-index: 4;
+  border-radius: 20px;
+  text-align: center;
+}
+body #btn5 {
+  position: absoulte;
+  width: 60px;
+  height: 60px;
+  z-index: 4;
+  border-radius: 20px;
+  text-align: center;
+}
 
 .alt-theme-1-shape-1 {
   background: #fff1c1;
