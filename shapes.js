@@ -33,6 +33,121 @@ const boxes = {
   box15: $("#shape-15"),
 };
 
+const buttons = {
+  btn1: document.querySelector("#btn1"),
+  btn2: document.querySelector("#btn2"),
+  btn3: document.querySelector("#btn3"),
+  btn4: document.querySelector("#btn4"),
+  btn5: document.querySelector("#btn5"),
+  btn6: document.querySelector("#btn6"),
+};
+
+const randomizer1 = [
+  "shape-1",
+  "alt-theme-1-shape-1",
+  "alt-theme-2-shape-1",
+  "alt-theme-3-shape-1",
+  "alt-theme-4-shape-1",
+];
+const randomizer2 = [
+  "shape-2",
+  "alt-theme-1-shape-2",
+  "alt-theme-2-shape-2",
+  "alt-theme-3-shape-2",
+  "alt-theme-4-shape-2",
+];
+const randomizer3 = [
+  "shape-3",
+  "alt-theme-1-shape-3",
+  "alt-theme-2-shape-3",
+  "alt-theme-3-shape-3",
+  "alt-theme-4-shape-3",
+];
+const randomizer4 = [
+  "shape-4",
+  "alt-theme-1-shape-4",
+  "alt-theme-2-shape-4",
+  "alt-theme-3-shape-4",
+  "alt-theme-4-shape-4",
+];
+const randomizer5 = [
+  "shape-5",
+  "alt-theme-1-shape-5",
+  "alt-theme-2-shape-5",
+  "alt-theme-3-shape-5",
+  "alt-theme-4-shape-5",
+];
+const randomizer6 = [
+  "shape-6",
+  "alt-theme-1-shape-6",
+  "alt-theme-2-shape-6",
+  "alt-theme-3-shape-6",
+  "alt-theme-4-shape-6",
+];
+const randomizer7 = [
+  "shape-7",
+  "alt-theme-1-shape-7",
+  "alt-theme-2-shape-7",
+  "alt-theme-3-shape-7",
+  "alt-theme-4-shape-7",
+];
+const randomizer8 = [
+  "shape-8",
+  "alt-theme-1-shape-8",
+  "alt-theme-2-shape-8",
+  "alt-theme-3-shape-8",
+  "alt-theme-4-shape-8",
+];
+const randomizer9 = [
+  "shape-9",
+  "alt-theme-1-shape-9",
+  "alt-theme-2-shape-9",
+  "alt-theme-3-shape-9",
+  "alt-theme-4-shape-9",
+];
+const randomizer10 = [
+  "shape-10",
+  "alt-theme-1-shape-10",
+  "alt-theme-2-shape-10",
+  "alt-theme-3-shape-10",
+  "alt-theme-4-shape-10",
+];
+const randomizer11 = [
+  "shape-11",
+  "alt-theme-1-shape-11",
+  "alt-theme-2-shape-11",
+  "alt-theme-3-shape-11",
+  "alt-theme-4-shape-11",
+];
+const randomizer12 = [
+  "shape-12",
+  "alt-theme-1-shape-12",
+  "alt-theme-2-shape-12",
+  "alt-theme-3-shape-12",
+  "alt-theme-4-shape-12",
+];
+const randomizer13 = [
+  "shape-13",
+  "alt-theme-1-shape-13",
+  "alt-theme-2-shape-13",
+  "alt-theme-3-shape-13",
+  "alt-theme-4-shape-13",
+];
+const randomizer14 = [
+  "shape-14",
+  "alt-theme-1-shape-14",
+  "alt-theme-2-shape-14",
+  "alt-theme-3-shape-14",
+  "alt-theme-4-shape-14",
+];
+const randomizer15 = [
+  "shape-15",
+  "alt-theme-1-shape-15",
+  "alt-theme-2-shape-15",
+  "alt-theme-3-shape-15",
+  "alt-theme-4-shape-15",
+];
+
 const alt1Shapes = {
   alt1Shape1: $(".alt-theme-1-shape-1"),
   alt1Shape2: $(".alt-theme-1-shape-2"),

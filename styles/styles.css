@@ -40,6 +40,7 @@ body > div {
 body icontray {
   position: fixed;
   background: rgb(82, 82, 82);
+  background: transparent;
   width: 65px;
   height: 330px;
   bottom: 20px;
@@ -51,7 +52,8 @@ body #btn1,
 body #btn2,
 body #btn3,
 body #btn4,
-body #btn5 {
+body #btn5,
+body #btn6 {
   position: relative;
   width: 55px;
   height: 55px;
@@ -59,6 +61,15 @@ body #btn5 {
   display: block;
   margin: 0 auto;
   top: 0.5rem;
+  opacity: 50%;
+}
+body #btn1:hover,
+body #btn2:hover,
+body #btn3:hover,
+body #btn4:hover,
+body #btn5:hover,
+body #btn6:hover {
+  opacity: 100%;
 }
 
 .alt-theme-1-shape-1 {
