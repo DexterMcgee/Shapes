@@ -14,6 +14,7 @@ body {
   grid-template-columns: repeat(5, 1fr);
   gap: 0.3rem;
   overflow-y: scroll;
+  overflow-x: hidden;
 
   @media screen and (max-width: 992px) {
     grid-template-columns: repeat(3, 1fr);
@@ -62,5 +63,16 @@ body {
     &:hover {
       opacity: 100%;
     }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background: transparent;
+  &-track {
+    background: hsl(0, 0%, 10%);
+  }
+  &-thumb {
+    background: hsl(0, 0%, 40%);
   }
 }
